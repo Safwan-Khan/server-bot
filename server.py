@@ -13,7 +13,7 @@ def log_timeout():
         f.write(f"Request timeout at {timestamp}\n")
     return log_file
 
-def send_email(log_file, failed_timestamp,cc_emails=["sanjay.cilicosys@workindia.in","nishant.soni@workindia.in"]):
+def send_email(log_file, failed_timestamp,cc_emails=["cc@example.com","cc@example.com"]):
     # Email configuration
     sender_email = "abc@example.com"
     receiver_email = "abc@example.com"
